@@ -88,6 +88,7 @@ This system helps schools or institutions manage students effectively with role-
 ---
 
 ## 📦 Setup Instructions
+git clone https://github.com/arunkumarb3509/Student-Management-System-.git
 
 ### 1. Clone the repo
 
