@@ -1,0 +1,40 @@
+body {
+  background: #f8f9fa;
+}
+
+input:invalid {
+  border-color: #dc3545 !important;
+}
+
+input:invalid:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25) !important;
+}
+
+img.rounded-circle {
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+.auth-container {
+  display: flex;
+  min-height: 100vh;
+}
+.auth-image {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+}
+.login-img {
+  background-image: url('../assets/images/loginPic.png');
+}
+.register-img {
+  background-image: url('../assets/images/RegisterPic.png');
+}
+.auth-form {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #f8f9fa;
+}
