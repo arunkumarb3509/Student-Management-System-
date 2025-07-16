@@ -2,13 +2,26 @@ body {
   background: #f8f9fa;
 }
 
-input:invalid {
+.input-error {
   border-color: #dc3545 !important;
 }
 
-input:invalid:focus {
-  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25) !important;
+.error-text {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 4px;
 }
+
+.progress {
+  background-color: #e9ecef;
+}
+
+.progress-bar.bg-danger { background-color: #dc3545 !important; }
+.progress-bar.bg-warning { background-color: #ffc107 !important; }
+.progress-bar.bg-info    { background-color: #0dcaf0 !important; }
+.progress-bar.bg-success { background-color: #198754 !important; }
+
+
 
 img.rounded-circle {
   object-fit: cover;
